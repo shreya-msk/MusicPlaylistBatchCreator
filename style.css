@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    margin: 0;
+    padding: 40px;
+    color: #333;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px #00000060;
+  }
+  
+  form {
+    margin-bottom: 30px;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #ff5f6d;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #ffe1e6;
+  }
+  
+  #output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .song-card {
+    background: #ffffffdd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    width: 60%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
